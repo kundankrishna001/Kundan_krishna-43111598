@@ -29,93 +29,54 @@
       color: #030000;
     }
 
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+
     .section {
+      flex: 1;
       text-align: center;
-      margin: 20px 0;
+      border: 1px solid #030000;
+      background-color: rgb(200, 206, 205);
+      padding: 20px;
+      border-radius: 10px;
     }
 
-    table {
-      width: 80%;
-      margin: 20px auto;
-      border-collapse: collapse;
-    }
-
-    th,
-    td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #333;
-      color: white;
-    }
     .end {
       text-align: center;
       margin: 20px 0;
-      size : 40px;  
-
+      font-size: 20px;
     }
   </style>
 </head>
 
 <body>
   <div class="header">
-    <h1>Kundan Kishna</h1>
+    <h1>Kundan Krishna</h1>
   </div>
   <div class="nav">
     <a href="#about">About</a>
     <a href="#experiences">Experiences</a>
     <a href="#contact">Contact</a>
   </div>
-  <div class="section" id="skills">
-    <h2>Skills</h2>
-    <table>
-      <tr>
-        <th>Skill</th>
-        <th>Level</th>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>Advanced</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>Advanced</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>Intermediate</td>
-      </tr>
-    </table>
-  </div>
-  <div class="section" id="projects">
-    <h2>Projects</h2>
-    <table>
-      <tr>
-        <th>Project</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Portfolio Website</td>
-        <td>A personal portfolio website to showcase my work.</td>
-      </tr>
-      <tr>
-        <td>Weather App</td>
-        <td>A web application to display weather information using an API.</td>
-      </tr>
-      <tr>
-        <td>Task Manager</td>
-        <td>A task management tool to organize daily tasks.</td>
-      </tr>
-    </table>
+  <div class="container">
+    <div class="section" id="skills">
+      <h3>Skills</h3>
+      html , java, css
     </div>
-    <div class="end">
-    <h3>Contact Me</h3>
-    feel free to reach out vai email :<a href="kundankrishna81@gmail.com">kundankrishna81@gmail.com</a> </div>
-
-  
+    <div class="section" id="projects">
+      <h3>Projects</h3>
+      worked in 3 projects
+    </div>
+  </div>
+  <div class="end">
+    <h4>Contact Me</h4>
+    feel free to reach out via email: <a href="mailto:kundankrishna81@gmail.com">kundankrishna81@gmail.com</a>
+  </div>
 </body>
 
 </html>
